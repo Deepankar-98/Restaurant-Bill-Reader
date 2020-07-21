@@ -1,1 +1,1 @@
-# Restaurant-Bill-Reader
+# Restaurant Bill Reader
