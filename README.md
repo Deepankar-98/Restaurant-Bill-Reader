@@ -41,6 +41,5 @@ Then install the following python packages using pip:
   ```
 
   Else If you get error:
-
-    
-    
+  ![Wand Error Images]("/readme-assets/wand-error.jpg")
+  
