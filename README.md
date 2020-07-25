@@ -11,7 +11,7 @@ In this project `Python` version **3.7.7** is used.
 First create a new anaconda environment and then activate the environment:
 ```python
 # Create environmemt.
-conda create -n bill-reader python=3.6
+conda create -n bill-reader python=3.7
 # Activate environment.
 conda activate bill-reader
 ```
@@ -43,3 +43,6 @@ Then install the following python packages using pip:
   Else If you get error:
   ![Wand Error Images](/readme-assets/wand-error.jpg)
   
+  Visit the following [link](https://docs.wand-py.org/en/latest/guide/install.html#install-imagemagick-windows).
+  
+  And then check again repeat Steps 1 to 3. Hopefully it will solve all the errors.  
