@@ -6,7 +6,7 @@
 
 
 ### Installation
-In this project `Python` version **3.7.4** is used.
+In this project `Python` version **3.7.7** is used.
 
 First create a new anaconda environment and then activate the environment:
 ```python
@@ -31,6 +31,13 @@ Then install the following python packages using pip:
     >>> from wand.Image import image as wi
     ```
     
-   
+    If there is no error, then wand module is working fine.
+    And we will exit the terminal.
+    ```python
+    >>> quit()
+    ```
+    
+    Else If you get error:
+    
     
     
