@@ -1,7 +1,7 @@
 # Restaurant Bill Reader
 
 ### Table of Content
-1. [Installation](installation)
+1. [Installation](#installation)
 
 
 
