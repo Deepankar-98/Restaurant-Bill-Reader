@@ -43,6 +43,6 @@ Then install the following python packages using pip:
   Else If you get error:
   ![Wand Error Images](/readme-assets/wand-error.jpg)
   
-  Visit the following [link](https://docs.wand-py.org/en/latest/guide/install.html#install-imagemagick-windows).
+  Visit the following [link](https://docs.wand-py.org/en/latest/guide/install.html).
   
   And then check again repeat Steps 1 to 3. Hopefully it will solve all the errors.  
