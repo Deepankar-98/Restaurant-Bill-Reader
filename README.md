@@ -22,7 +22,8 @@ Then install the following python packages using pip:
 
 `$ pip install pytesseract`
 
-  1. Checking Wand:
+  1. **Checking Wand:**
+  
   Open Python terminal by typing the following command in anaconda command prompt:
   `$ python`
 
