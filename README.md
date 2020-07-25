@@ -21,5 +21,20 @@ Then install the following python packages using pip:
 `$ pip install pytesseract`
 
   1. Checking Wand:
-  
-  
+    Open Python terminal by typing the following command in anaconda command prompt:
+    `$ python`
+    
+    This will open a python terminal.
+    ```python
+    >>> from wand.Image import image as wi
+    ```
+    
+    - If there is no error, then wand module is working fine.
+    And we will exit the terminal.
+    ```python
+    >>> quit()
+    ```
+    - Else If you get error:
+    
+    
+    
