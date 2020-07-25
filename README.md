@@ -38,6 +38,7 @@ Then install the following python packages using pip:
   ```
   
   **STEP-3**
+  
   If there is no error, then wand module is working fine.
   And we will exit the terminal.
 
@@ -46,6 +47,7 @@ Then install the following python packages using pip:
   ```
 
   Else If you get error:
+  
   ![Wand Error Images](/readme-assets/wand-error.jpg)
   
   Visit the following [link](https://docs.wand-py.org/en/latest/guide/install.html) and follow the instructions given for your respective OS.
