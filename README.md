@@ -17,7 +17,9 @@ conda activate bill-reader
 ```
 
 Then install the following python packages using pip:
+
 `$ pip install wand`
+
 `$ pip install pytesseract`
 
   1. Checking Wand:
@@ -29,12 +31,6 @@ Then install the following python packages using pip:
     >>> from wand.Image import image as wi
     ```
     
-    - If there is no error, then wand module is working fine.
-    And we will exit the terminal.
-    ```python
-    >>> quit()
-    ```
-    - Else If you get error:
-    
+   
     
     
