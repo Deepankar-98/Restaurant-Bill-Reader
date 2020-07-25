@@ -27,14 +27,16 @@ Then install the following python packages using pip:
     `$ python`
     
     This will open a python terminal.
+    
     ```python
-    >>> from wand.Image import image as wi
+    from wand.Image import image as wi
     ```
     
     If there is no error, then wand module is working fine.
     And we will exit the terminal.
+    
     ```python
-    >>> quit()
+    quit()
     ```
     
     Else If you get error:
