@@ -2,10 +2,13 @@
 
 ### Table of Content
 1. [Installation](#installation)
+  - [Checking Wand](checking-wand)
+  - [Checking Pytesseract](checking-pytesseract)
+  
 
 
 
-### Installation
+## Installation
 In this project `Python` version **3.7.7** is used.
 
 First create a new anaconda environment and then activate the environment:
@@ -22,7 +25,11 @@ Then install the following python packages using pip:
 
 `$ pip install pytesseract`
 
-  1. **Checking Wand:**
+`$ pip install opencv-python`
+
+---
+
+  #### Checking Wand
   
   **STEP-1**
   
@@ -57,4 +64,5 @@ Then install the following python packages using pip:
   And then check again repeat Steps 1 to 3. Hopefully it will solve all the errors  
   
   
-  
+  ### Checking pytesseract
+ 
