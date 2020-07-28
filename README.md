@@ -54,7 +54,7 @@ Then install the following python packages using pip:
   
   For [Wndows](https://docs.wand-py.org/en/latest/guide/install.html#install-imagemagick-on-windows).
   
-  And then check again repeat Steps 1 to 3. Hopefully it will solve all the errors.  
+  And then check again repeat Steps 1 to 3. Hopefully it will solve all the errors  
   
   
   
