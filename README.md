@@ -2,7 +2,7 @@
 
 ### Table of Content
 1. [Installation](#installation)
-  - [Checking Wand](checking-wand)
+  - [Checking Wand](checking-Wand)
   - [Checking Pytesseract](checking-pytesseract)
   
 
