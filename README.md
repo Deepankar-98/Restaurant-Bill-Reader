@@ -2,8 +2,8 @@
 
 ### Table of Content
 1. [Installation](#installation)
-  - [Checking Wand](checking-Wand)
-  - [Checking Pytesseract](checking-pytesseract)
+  - [Checking Wand](#checking-Wand)
+  - [Checking Pytesseract](#checking-pytesseract)
   
 
 
@@ -63,6 +63,10 @@ Then install the following python packages using pip:
   
   And then check again repeat Steps 1 to 3. Hopefully it will solve all the errors  
   
+  ---
   
   ### Checking pytesseract
+ 
+ 
+ 
  
