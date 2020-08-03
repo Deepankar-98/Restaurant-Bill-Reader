@@ -63,6 +63,10 @@ Then install the following python packages using pip:
   quit()
   ```
   
+  **STEP-4**
+  Now open 
+  
+  
   ---
   
   ### Checking pytesseract
