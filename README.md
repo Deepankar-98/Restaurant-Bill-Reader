@@ -115,5 +115,6 @@ Then install the following python packages using pip:
   If you get error any error proceed to **Step-3**:
   
   Refer this answer -- https://stackoverflow.com/questions/19876079/cannot-find-module-cv2-when-using-opencv#answer-50656103
+  
   It worked for me.
   
