@@ -4,6 +4,7 @@
 1. [Installation](#installation)
   - [Checking Wand](#checking-Wand)
   - [Checking Pytesseract](#checking-pytesseract)
+  - [Checking OpenCV](#checking-opencv)
   
 
 
@@ -52,6 +53,11 @@ Then install the following python packages using pip:
   
   For [Wndows](https://docs.wand-py.org/en/latest/guide/install.html#install-imagemagick-on-windows).
   
+  
+  Checkboxes that must be ticked while installing are as follows:
+  
+  ![Magic Wand Installation](/readme-assets/magic-wand-options.PNG)
+  
   And then check again repeat Steps 1 and 2. Hopefully it will solve the import error with wand module.
   
   **STEP-3**
@@ -64,7 +70,10 @@ Then install the following python packages using pip:
   ```
   
   **STEP-4**
-  Now open 
+  Now open `01-pdf-to-image.ipynb` file and run the cells in your jupyter-notebook.
+  
+  If you get `DelegateError`, do the follows:
+   - INSTALL [GHOSTSCRIPT](https://www.ghostscript.com/download/gsdnld.html)
   
   
   ---
@@ -78,14 +87,34 @@ Then install the following python packages using pip:
   
   This will open a python terminal.
 
+  **Step-2**:
+  
+  Visit this [link](https://github.com/UB-Mannheim/tesseract/wiki) and download the write installer according to your python architecture (32 or 64).
+  Then install it and make a `note of the installation location`.
+  
+  Then open '02-image-to-text.ipynb' file and in cell 1 update the path mensioned to your installing location.
+  ![Replace location here](/readme-assets/tesseract-loc.png)
+ 
+ ---
+ 
+  ### Checking OpenCV
+ 
+  **STEP-1**
+  
+  Open Python terminal by typing the following command in anaconda command prompt:
+  `$ python`
+  
+  This will open a python terminal.
+
   **STEP-2**
 
   ```python
-  import pytesseract
+  import cv2
   ```
   
   If you get error any error proceed to **Step-3**:
   
- 
- 
- 
+  Refer this answer -- https://stackoverflow.com/questions/19876079/cannot-find-module-cv2-when-using-opencv#answer-50656103
+  
+  It worked for me.
+  
