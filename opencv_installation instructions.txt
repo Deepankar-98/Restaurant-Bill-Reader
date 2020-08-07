@@ -1,0 +1,16 @@
+Update your anaconda.
+
+conda update anaconda-navigator
+(base) C:\Users\DEEPANKAR MULLICK>conda update navigator-updater
+
+Install opencv in your selected environment path.
+
+(bill-37) C:\Users\DEEPANKAR MULLICK>conda index F:/InstallationFolder/anaconda/envs/bill-37
+(base) C:\Users\DEEPANKAR MULLICK>conda index F:/InstallationFolder/anaconda/envs/bill-37
+(base) conda install -c ['environment path'] opencv
+
+
+or Juypter notebook
+
+!conda install --yes --prefix ['environment path'] opencv
+
