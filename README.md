@@ -21,7 +21,7 @@
 
 In this problem we are given a bunch of resturant bills in pdf format. We have to extract text from the images of bills given in ".pdf" form.
 
-====
+----
 
 ## Modules Used
 
@@ -31,7 +31,7 @@ The major python modules used for solving the above mentioned problem are as fol
 - OpenCV
 - PyTesseract OCR
 
-====
+----
 
 ## Approach
 
@@ -41,7 +41,7 @@ The major python modules used for solving the above mentioned problem are as fol
 
 3. Use PyTesseract to read text from the images and save the data obtained as a json file.
 
-====
+----
 
 ## Installation
 
@@ -63,7 +63,7 @@ Then install the following python packages using pip:
 
 `$ pip install opencv-python`
 
----
+----
 
 
   #### Checking Wand
@@ -154,7 +154,7 @@ Then install the following python packages using pip:
   
   It worked for me.
   
-  ====
+----
   
  ## Executing Program
  
@@ -165,7 +165,7 @@ Then install the following python packages using pip:
 
    It will also take some time to execute.
  
- ====
+-----
  
  
   
