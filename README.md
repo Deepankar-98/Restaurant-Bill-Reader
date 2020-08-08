@@ -1,15 +1,50 @@
 # Restaurant Bill Reader
 
-### Table of Content
-1. [Installation](#installation)
-  - [Checking Wand](#checking-Wand)
-  - [Checking Pytesseract](#checking-pytesseract)
-  - [Checking OpenCV](#checking-opencv)
+### Table of Content:
+
+1. [Problem Statement](#problem-statement)
+2. [Modules Used](#modules-used)
+3. [Approach](#approach)
+4. [Installation](#installation)
+    - [Checking Wand](#checking-Wand)
+    - [Checking Pytesseract](#checking-pytesseract)
+    - [Checking OpenCV](#checking-opencv)
+
+4. [Executing Program](#executing-program)
+5. [License](#license)
+6. [Version](#version)
+7. [Author](#author)
   
 
 
+## Problem Statement
+
+In this problem we are given a bunch of resturant bills in pdf format. We have to extract text from the images of bills given in ".pdf" form.
+
+====
+
+## Modules Used
+
+The major python modules used for solving the above mentioned problem are as follows:
+
+- Wand
+- OpenCV
+- PyTesseract OCR
+
+====
+
+## Approach
+
+1. Use Wand to conver pdd to image of any resolution (here we have used **700 x 700**) and save it in `images` folder.
+
+2. Read the image using OpenCV 
+
+3. Use PyTesseract to read text from the images and save the data obtained as a json file.
+
+====
 
 ## Installation
+
 In this project `Python` version **3.7.7** is used.
 
 First create a new anaconda environment and then activate the environment:
@@ -29,6 +64,7 @@ Then install the following python packages using pip:
 `$ pip install opencv-python`
 
 ---
+
 
   #### Checking Wand
   
@@ -118,3 +154,37 @@ Then install the following python packages using pip:
   
   It worked for me.
   
+  ====
+  
+ ## Executing Program
+ 
+1. First run `01-pdf-to-image.ipynb`.
+   It will take some time to execute completely depending upon your computer hardware.
+ 
+2. Now run `02-image-to-text.ipynb`. 
+
+   It will also take some time to execute.
+ 
+ ====
+ 
+ 
+  
+## License
+
+    MIT © 2020 [Deepankar](https://github.com/Deepankar-98)
+
+---
+
+
+ 
+## Version
+
+    1.0.0
+
+--- 
+ 
+ 
+ 
+## Author
+
+    The author of this project is [Deepankar](https://github.com/Deepankar-98/Restaurant-Bill-Reader).
