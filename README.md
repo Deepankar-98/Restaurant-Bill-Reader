@@ -1,21 +1,21 @@
-# Restaurant Bill Reader
+# <u>Restaurant Bill Reader</u>
 
 ### Table of Content:
 
 1. [Problem Statement](#problem-statement)
 2. [Modules Used](#modules-used)
-3. [Approach](#approach)
+3. [Solution Approach](#Solution-approach)
 4. [Installation](#installation)
     - [Checking Wand](#checking-Wand)
     - [Checking Pytesseract](#checking-pytesseract)
     - [Checking OpenCV](#checking-opencv)
 
-4. [Executing Program](#executing-program)
+4. [Execution Instructions](#Execution-Instructions)
 5. [License](#license)
 6. [Version](#version)
 7. [Author](#author)
   
-
+----
 
 ## Problem Statement
 
@@ -33,7 +33,7 @@ The major python modules used for solving the above mentioned problem are as fol
 
 ----
 
-## Approach
+## Solution Approach
 
 1. Use Wand to conver pdd to image of any resolution (here we have used **700 x 700**) and save it in `images` folder.
 
@@ -156,9 +156,10 @@ Then install the following python packages using pip:
   
 ----
   
- ## Executing Program
+ ## Execution Instructions
  
 1. First run `01-pdf-to-image.ipynb`.
+
    It will take some time to execute completely depending upon your computer hardware.
  
 2. Now run `02-image-to-text.ipynb`. 
@@ -171,7 +172,7 @@ Then install the following python packages using pip:
   
 ## License
 
-    MIT © 2020 [Deepankar](https://github.com/Deepankar-98)
+MIT © 2020 [Deepankar](https://github.com/Deepankar-98)
 
 ---
 
@@ -179,7 +180,7 @@ Then install the following python packages using pip:
  
 ## Version
 
-    1.0.0
+1.0.0
 
 --- 
  
@@ -187,4 +188,4 @@ Then install the following python packages using pip:
  
 ## Author
 
-    The author of this project is [Deepankar](https://github.com/Deepankar-98/Restaurant-Bill-Reader).
+The author of this project is [Deepankar](https://github.com/Deepankar-98/Restaurant-Bill-Reader).
